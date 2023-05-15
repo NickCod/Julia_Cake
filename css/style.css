@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Italic;
+    src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(../images/Заголовок.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 768px;
+    width: 100%;
+}
+.navi-list {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+}
+.navi-link {
+    border: 5px solid rgba(255, 255, 255, .5);
+ border-radius: 20px;
+}
+.navi-link:hover{
+background-color: rgb(242,232,201);
+}
+.navi-text:hover {
+color:white;
+}
+.navi-link:first-child {
+ margin-left: 40px;
+}
+.navi-link:last-child{
+margin-right: 40px;
+}
+.navi-text {
+ text-decoration: none;
+ font-family: Italic;
+ font-size: 40px;
+ padding:15px;
+ color:#8b6997;
+
+}
+.title {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 35px;
+    color: aliceblue;
+    z-index: 1;
+    font-family: Italic;
+
+}
+.title::before {
+    content: "";
+    display: block;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+    width: 700px;
+    height: 150px;
+    background-color: black;
+    z-index: -1;
+    top: 118px;
+    opacity: 0.5;
+    border-radius: 130px;
+}
+.main-part {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+}
+.unit_first {
+background-image:url(../images/XV0ky403xuY.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height:500px;
+width:50%;
+}
+.unit-title{
+    display: flex;
+    width:50%;
+    text-align: center;
+    font-family: Italic;
+    padding-top: 240px;
+}
+.unit_second {
+    background-image:url(../images/d5EuTQnvbxc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:50%;  
+}
+.unit_third {
+    background-image:url(../images/onnIsWlNaQU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width:50%;  
+}
+.button-wrapper{
+    display: flex;	
+    justify-content: center;
+  }
+.button {
+    margin-top:30px;
+    width:500px;
+    height:150px;
+    font-family: Italic;
+    font-size: 40px;
+    color: white;
+    background-image: linear-gradient(to right, pink, violet);
+    border-radius: 50px;
+    border:none;
+}
+.button:hover {
+    cursor: pointer;
+}
+.copyright {
+    margin-top:20px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0 15px 0 15px;
+   }
+   .copyright-link {
+    text-decoration: none;
+     color: #999999;
+   }
